@@ -1,0 +1,58 @@
+.rightSection {
+    padding: 50px 30px;
+    margin: 33px 33px;
+    float: right;
+    width: 350px;
+    height: 320px;
+    border-radius: 15px;
+    background-color: $Verydarkcyan;
+    @include breakpoint-less(medium) {
+        width: 260px;
+        height: 180px;
+        margin: 20px 29px 0px 200px;
+    }
+    h5 {
+        margin-top: 0px;
+        font-weight: 400;
+        color: $Lightgraycyan;
+    }
+    lebel {
+        color: $White;
+    }
+    input {
+        height: 30px;
+        width: 200px;
+        text-align: right;
+        background-color: $Verydarkcyan;
+        font-size: 30px;
+        font-weight: 700;
+        border: none;
+        color: $Strongcyan;
+        margin-top: -60px;
+        float: right;
+        @include breakpoint-less(medium) {
+            width: 150px;
+        }
+    }
+    ::placeholder {
+        color: $Strongcyan;
+       }
+
+    button {
+        width: 100%;
+        background-color: $Strongcyan;
+        padding: 10px;
+        border-radius: 6px;
+        border: none;
+        color: $Verydarkcyan;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 90px;
+        @include breakpoint-less(medium) {
+            margin-top: 0px;
+        }
+    }
+    button:hover {
+        background-color: $Strongcya;
+    }
+}

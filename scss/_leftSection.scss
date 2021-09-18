@@ -1,0 +1,90 @@
+.leftSection {
+    margin: 34px 34px;
+    float: left;
+    @include breakpoint-less(medium) {
+        margin-bottom: -30px;
+    }
+    #custom {
+        font-size: 18px;
+        font-weight: 700;
+        color: $Verydarkcyan;
+        font-family: $font-family;
+        text-align: right;
+        border: 2px solid $Strongcyan;
+        border-radius: 3px;
+        width: 85px;
+        @include breakpoint-less(medium) {
+            width: 130px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+    }
+    ::placeholder {
+        color: $Verydarkcyan;
+    }
+    input {
+        font-size: 20px;
+        font-weight: 700;
+        color: $Verydarkcyan;
+        font-family: $font-family;
+        text-align: right;
+        border: 2px solid $Strongcyan;
+        border-radius: 3px;
+        width: 350px;
+        padding: 5px;
+        margin-bottom: 30px;
+        @include breakpoint-less(medium) {
+            width: 290px;
+        } 
+    }
+
+    h3 {
+        font-size: 15px;
+        color: $Darkgraycyan;
+    }
+    #people {
+        background-image: url(/images/icon-person.svg);
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-right: 5px;
+    }
+    #bill {
+        background-image: url(/images/icon-dollar.svg);
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        margin-bottom: 40px;
+        br {
+            display: none;
+        }
+        @include breakpoint-less(medium) {
+            br {
+                display: block;
+            }
+        }
+    }
+    button {
+        font-size: 16px;
+        border-radius: 4px;
+        width: 100px;
+        height: 39px;
+        font-family: $font-family;
+        background-color: $Verydarkcyan;
+        color: $White;
+        border: none;
+        @include breakpoint-less(medium) {
+            width: 145px;
+        }
+    }
+    button:hover {
+        color: $Verydarkcyan;
+        background-color: $Strongcyan;
+        cursor: pointer;
+    }
+    
+    
+}

@@ -1,0 +1,253 @@
+Html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: #c5e4e7;
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  width: 922px;
+  height: 484px;
+  background-color: white;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 375px;
+    height: 786px;
+    margin-top: 20px;
+  }
+}
+
+h1 {
+  position: relative;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 100px;
+  color: #7f9c9f;
+  letter-spacing: 9px;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    margin-top: 20px;
+  }
+}
+
+.rightSection {
+  padding: 50px 30px;
+  margin: 33px 33px;
+  float: right;
+  width: 350px;
+  height: 320px;
+  border-radius: 15px;
+  background-color: #00494d;
+}
+
+@media screen and (max-width: 700px) {
+  .rightSection {
+    width: 260px;
+    height: 180px;
+    margin: 20px 29px 0px 200px;
+  }
+}
+
+.rightSection h5 {
+  margin-top: 0px;
+  font-weight: 400;
+  color: #c5e4e7;
+}
+
+.rightSection lebel {
+  color: white;
+}
+
+.rightSection input {
+  height: 30px;
+  width: 200px;
+  text-align: right;
+  background-color: #00494d;
+  font-size: 30px;
+  font-weight: 700;
+  border: none;
+  color: #26c0ab;
+  margin-top: -60px;
+  float: right;
+}
+
+@media screen and (max-width: 700px) {
+  .rightSection input {
+    width: 150px;
+  }
+}
+
+.rightSection ::-webkit-input-placeholder {
+  color: #26c0ab;
+}
+
+.rightSection :-ms-input-placeholder {
+  color: #26c0ab;
+}
+
+.rightSection ::-ms-input-placeholder {
+  color: #26c0ab;
+}
+
+.rightSection ::placeholder {
+  color: #26c0ab;
+}
+
+.rightSection button {
+  width: 100%;
+  background-color: #26c0ab;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: #00494d;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 700px) {
+  .rightSection button {
+    margin-top: 0px;
+  }
+}
+
+.rightSection button:hover {
+  background-color: #5ff1de;
+}
+
+.leftSection {
+  margin: 34px 34px;
+  float: left;
+}
+
+@media screen and (max-width: 700px) {
+  .leftSection {
+    margin-bottom: -30px;
+  }
+}
+
+.leftSection #custom {
+  font-size: 18px;
+  font-weight: 700;
+  color: #00494d;
+  font-family: "Space Mono", monospace;
+  text-align: right;
+  border: 2px solid #26c0ab;
+  border-radius: 3px;
+  width: 85px;
+}
+
+@media screen and (max-width: 700px) {
+  .leftSection #custom {
+    width: 130px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
+
+.leftSection ::-webkit-input-placeholder {
+  color: #00494d;
+}
+
+.leftSection :-ms-input-placeholder {
+  color: #00494d;
+}
+
+.leftSection ::-ms-input-placeholder {
+  color: #00494d;
+}
+
+.leftSection ::placeholder {
+  color: #00494d;
+}
+
+.leftSection input {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00494d;
+  font-family: "Space Mono", monospace;
+  text-align: right;
+  border: 2px solid #26c0ab;
+  border-radius: 3px;
+  width: 350px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .leftSection input {
+    width: 290px;
+  }
+}
+
+.leftSection h3 {
+  font-size: 15px;
+  color: #7f9c9f;
+}
+
+.leftSection #people {
+  background-image: url(/images/icon-person.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-right: 5px;
+}
+
+.leftSection #bill {
+  background-image: url(/images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.leftSection #grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  margin-bottom: 40px;
+}
+
+.leftSection #grid br {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .leftSection #grid br {
+    display: block;
+  }
+}
+
+.leftSection button {
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100px;
+  height: 39px;
+  font-family: "Space Mono", monospace;
+  background-color: #00494d;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+  .leftSection button {
+    width: 145px;
+  }
+}
+
+.leftSection button:hover {
+  color: #00494d;
+  background-color: #26c0ab;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

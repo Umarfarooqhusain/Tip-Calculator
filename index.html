@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Tip calculator</title>
+</head>
+<body>
+    <h1>SPLI<br>TTER</h1>
+    <div class="container">
+        <div class="leftSection">
+            <h3>Bill</h3>
+            <input type="text" placeholder="0" value="" id="bill">
+            <h3>Select Tip %</h3>
+            <div id="grid">
+                <button id="five" onclick="firstButton()">5%</button>
+                <button id="ten" onclick="secondButton()">10%</button><br>
+                <button id="fif" onclick="thirdButton()">15%</button>
+                <button id="twenty" onclick="fourthButton()">25%</button><br>
+                <button id="fifty" onclick="fifthButton()">50%</button>
+                <input type="text" placeholder="Custom " id="custom" value="" oninput="umar()">    
+            </div>
+            <h3>Number of People</h3>
+            <input type="text" placeholder="0" id="people">    
+        </div>
+        <div class="rightSection">
+        <lebel>Tip Amount</lebel>
+        <h5>/ person</h5>   
+        <input type="text" placeholder="$0.00" id="tipam" value=""><br>         
+        <lebel>Total</lebel>            
+        <h5>/ person</h5>  
+        <input type="text" placeholder="$0.00" id="perPerson" value=""> <br>     
+        <button id="reset" onclick="resetButton()">RESET</button>  
+        </div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
